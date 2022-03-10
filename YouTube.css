@@ -1,3 +1,53 @@
 div.style-scope.ytd-masthead {
   background-color: #FF0000;
 }
+
+div.style-scope.ytd-notification-topbar-button-renderer {
+  border: none;
+}
+
+ytd-button-renderer.style-scope.ytd-masthead.style-default.size-default {
+  visibility: hidden;
+}
+
+yt-icon.style-scope.ytd-badge-supported-renderer {
+  color: #0097F1;
+}
+
+div.ytp-scrubber-button.ytp-swatch-background-color {
+  background-color: #FEA603;
+}
+div.ytp-play-progress{
+  background-color:#035bfe;
+}
+
+img.style-scope.yt-img-shadow {
+  -webkit-filter: contrast(.9);
+	filter: contrast(.9);
+}
+
+img.style-scope.yt-img-shadow::after {
+ background: rgba(242, 242, 242, .8);
+	mix-blend-mode: darken;
+}
+
+yt-formatted-string.style-scope.ytd-channel-name {
+  color:#FF0000;
+}
+
+div.html5-video-info-panel-content > div{
+  display: block;
+}
+
+button.ytp-pip-button.ytp-button {
+  display: inline-block;
+}
+
+div.badge.badge-style-type-simple.style-scope.ytd-badge-supported-renderer {
+  background-color: green;
+  color: white;
+}
+  
+a.ytp-title-link.yt-uix-sessionlink.ytp-title-fullerscreen-link {
+  font-style: oblique ;
+}
