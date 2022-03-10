@@ -1,53 +1,65 @@
+ /* Change header color to YouTube Red */
 div.style-scope.ytd-masthead {
   background-color: #FF0000;
 }
 
+ /* Remove ugly border around notification bubble*/
 div.style-scope.ytd-notification-topbar-button-renderer {
   border: none;
 }
 
+ /* Hides voice search button */
 ytd-button-renderer.style-scope.ytd-masthead.style-default.size-default {
   visibility: hidden;
 }
 
+ /* Change verified checkmark to a nice shade of blue*/
 yt-icon.style-scope.ytd-badge-supported-renderer {
   color: #0097F1;
 }
 
+ /* Scruber ball to orange ping bong ball*/
 div.ytp-scrubber-button.ytp-swatch-background-color {
   background-color: #FEA603;
 }
+
+ /* Time completed in progress bar color compliments ping pong ball*/
 div.ytp-play-progress{
   background-color:#035bfe;
 }
 
+ /* Add Lark filter from cssgram to profile pictures*/
 img.style-scope.yt-img-shadow {
   -webkit-filter: contrast(.9);
 	filter: contrast(.9);
 }
-
 img.style-scope.yt-img-shadow::after {
  background: rgba(242, 242, 242, .8);
 	mix-blend-mode: darken;
 }
 
+ /* Make channel names pop with red*/
 yt-formatted-string.style-scope.ytd-channel-name {
   color:#FF0000;
 }
 
+ /* Always show all availble info even if empty in Stats for Nerds*/
 div.html5-video-info-panel-content > div{
   display: block;
 }
 
+ /* Enable Picure in Picture button on player*/
 button.ytp-pip-button.ytp-button {
   display: inline-block;
 }
 
+ /* Make new video badge pop with green*/
 div.badge.badge-style-type-simple.style-scope.ytd-badge-supported-renderer {
   background-color: green;
   color: white;
 }
   
+ /* Making the title a little fancy when in full screen*/
 a.ytp-title-link.yt-uix-sessionlink.ytp-title-fullerscreen-link {
   font-style: oblique ;
 }
